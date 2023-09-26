@@ -9,8 +9,7 @@ import org.springframework.web.bind.annotation.*;
 import ru.alishev.springcourse.models.User;
 import ru.alishev.springcourse.service.UserService;
 
-import javax.validation.Valid;
-
+import jakarta.validation.Valid;
 @Controller
 @RequestMapping("/users")
 public class UsersController {

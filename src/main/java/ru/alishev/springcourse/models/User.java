@@ -1,7 +1,7 @@
 package ru.alishev.springcourse.models;
 
-import javax.persistence.*;
-import javax.validation.constraints.*;
+import jakarta.persistence.*;
+import jakarta.validation.constraints.*;
 
 @Entity
 @Table(name = "user")

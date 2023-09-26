@@ -6,7 +6,7 @@ import org.springframework.transaction.annotation.Transactional;
 import ru.alishev.springcourse.dao.UserDAO;
 import ru.alishev.springcourse.models.User;
 
-import javax.validation.Valid;
+import jakarta.validation.Valid;
 import java.util.List;
 
 @Service

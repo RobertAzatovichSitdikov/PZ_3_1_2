@@ -3,8 +3,8 @@ package ru.alishev.springcourse.dao;
 import org.springframework.stereotype.Component;
 import ru.alishev.springcourse.models.User;
 
-import javax.persistence.EntityManager;
-import javax.persistence.PersistenceContext;
+import jakarta.persistence.EntityManager;
+import jakarta.persistence.PersistenceContext;
 import java.util.List;
 
 @Component
